@@ -1,0 +1,28 @@
+---
+
+#
+# System user name
+#
+jira_user: jira
+
+#
+# System user group name
+#
+jira_user_group: jira
+
+#
+# System user home directory
+#
+jira_user_home: /home/jira
+
+#
+# Path for application directory
+#
+jira_application_dir: /opt/jira
+
+#
+# Configuration for setenv template
+#
+jira_setenv:
+  jvm_minimum_memory: 384m
+  jvm_maximum_memory: 768m
